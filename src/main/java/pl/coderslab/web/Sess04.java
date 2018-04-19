@@ -33,7 +33,7 @@ public class Sess04 extends HttpServlet {
         HttpSession sess = request.getSession();
         sess.setAttribute("product", products);
 
-        response.getWriter().append(sess.getAttribute("product");
+        response.getWriter().append(sess.getAttribute("product") +"");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
