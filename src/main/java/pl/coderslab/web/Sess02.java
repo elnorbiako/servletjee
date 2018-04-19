@@ -37,7 +37,7 @@ public class Sess02 extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        response.setContentType("txt/html");
+        response.setContentType("text/html");
         response.getWriter().append("<form method ='post'>");
         response.getWriter().append("<input type ='text' name ='grade'/>");
         response.getWriter().append("<input type ='submit' />");
